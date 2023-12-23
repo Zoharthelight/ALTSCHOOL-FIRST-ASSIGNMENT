@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    
+</head>
+<body>
+    <nav>
+        <a href="index.html">About Me</a>
+        <a href="registration.html">Registration Form</a>
+    </nav>
+
+    <header>
+        <h1>Application Form</h1>
+
+    </header>
+    <form action="#" method="post">
+        <div class="form-row">
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName" placeholder="Your First Name" required>
+        </div>
+
+        <div class="form-row">
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName" placeholder="Your Last Name" required>
+        </div>
+
+        <div class="form-row">
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender" required>
+                <option value="" disabled selected>Select gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+        </div>
+
+        <div class="form-row">
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+        </div>
+
+        <div class="form-row">
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email Address" required>
+        </div>
+
+        <div class="form-row">
+            <label for="educationLevel">Education Level:</label>
+            <select id="educationLevel" name="educationLevel" required>
+                <option value="" disabled selected>Select level of education</option>
+                <option value="bsc">Bsc</option>
+                <option value="msc">Msc</option>
+                <option value="diploma">Diploma</option>
+                <option value="doctorate(phd)">Doctorate (Phd)</option>                
+                <option value="highschool/secondaryschool">High School / Secondary School</option>
+                <option value="undergraduate">Under Graduate</option>
+                <option value="junior/middleschool">Junior / Middle School</option>
+                <option value="postgraduate">Post Graduate</option>
+                <!-- Add more options as needed -->
+            </select>
+        </div>
+
+        <div class="form-row">
+            <label for="country">Country:</label>
+            <select id="country" name="country" required>
+                <option value="" disabled selected>Select your Country</option>
+                <option value="afghanistan">Afghanistan</option>
+                <option value="albania">Albania</option>
+                <option value="algeria">Algeria</option>
+                <option value="andorra">Andorra</option>
+                <option value="albania">Albania</option>
+                <option value="angola">Angola</option>
+                <option value="antiguaandbarbuda">Antigua and Barbuda</option>
+                <option value="argentina">Argentina</option>
+                <option value="armenia">Armenia</option>
+                <option value="australia">Australia</option>
+                <option value="austria">Austria</option>
+                <option value="Azerbaijan">Azerbaijan</option>
+                <option value="thebahamas">The Bahamas</option>
+                <option value="bahrain">Bahrain</option>
+                <option value="others">Other Countries</option>
+                <!-- Add more countries as needed -->
+            </select>
+        </div>
+
+        <div class="form-row">
+            <label for="residence">State/City of Residence:</label>
+            <input type="text" id="residence" name="residence" placeholder="Enter Your State of Residence" required>
+        </div>
+
+        <div class="form-row">
+            <label for="employmentStatus">Employment Status:</label>
+            <select id="employmentStatus" name="employmentStatus" required>
+                <option value="" disabled selected>Select employment Status</option>
+                <option value="employed">Employed</option>
+                <option value="unemployed">Unemployed</option>
+                <option value="selfemployed">Self Employed</option>
+                <!-- Add more options as needed -->
+            </select>
+        </div>
+
+        <div class="form-row">
+            <label for="phoneNumber">Phone Number:</label>
+            <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="07030039542" required>
+        </div>
+
+        <div class="form-row">
+            <label for="chooseSchool">Choose School:</label>
+            <select id="chooseSchool" name="chooseSchool" required>
+                <option value="" disabled selected>Select school</option>
+                <option value="schoolofcreativeeconomy">School of Creative Economy</option>
+                <option value="schoolofbusiness">School of Business</option>
+                <!-- Add more options as needed -->
+            </select>
+        </div>
+
+        <div class="form-row">
+            <label for="courseOfStudy">Choose Course of Study:</label>
+            <select id="courseOfStudy" name="courseOfStudy" required>
+                <option value="" disabled selected>Select course</option>
+                <option value="frontend">Front End</option>
+                <option value="backend">Back End</option>
+                <option value="cloud">Cloud</option>
+                <!-- Add more options as needed -->
+            </select>
+        </div>
+
+        <div class="form-row">
+            <label for="howDidYouHear">How did you hear about us?</label>
+            <select id="howDidYouHear" name="howDidYouHear" required>
+                <option value="" disabled selected>Select channel</option>
+                <option value="twitter">Twitter</option>
+                <option value="facebook">Facebook</option>
+                <option value="linkedin">LinkedIn</option>
+                <option value="youtube">Youtube</option>
+                <option value="friend">Friend</option>
+                <option value="whatsapp">WhatsApp</option>
+                <option value="instagram">Instagram</option>
+                <option value="billboard">Billboard</option>
+                <!-- Add more options as needed -->
+            </select>
+        </div>
+
+        <div class="form-row">
+            <label for="discountCode">Scholarship/Discount Code (optional):</label>
+            <input type="text" id="discountCode" name="discountCode" placeholder="Scholarship or student ID or discount code">
+        </div>
+
+        <div class="text-row">
+            By clicking continue, I agree to <a href="#">Terms of Use</a> and acknowledge that I
+            have read the <a href="#">Privacy Policy</a>.
+        </div>
+
+        <button type="submit">Proceed</button>
+
+        <div class="text-row">
+            Already have an account? <a href="#">Sign In</a>
+        </div>
+    </form>
+</body>
+</html>
